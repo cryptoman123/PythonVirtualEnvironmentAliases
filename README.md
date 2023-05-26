@@ -14,5 +14,31 @@ Replace the path in `function PythonHiddenVirtualEnvCreate {}` in __line number 
 6. Save and exit
 7. Restart the Powershell 
 
+### How to use the above newly created aliases?
+1. Create a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+```powershell
+# Windows Powershell
+# vch for my ease stands for Virtual Environment Create Hidden
+vch
+```
+2. Activate a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+```powershell
+# Windows Powershell
+# vch for my ease stands for Virtual Environment Activate Hidden
+vah
+```
+3. Deactivate a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+```powershell
+# Windows Powershell
+# vch for my ease stands for Virtual Environment Delete Hidden
+vdh
+```
+4. Delete a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+```powershell
+# Windows Powershell
+# vch for my ease stands for Virtual Environment Remove Hidden
+vrh
+```
+
 # References
 [1] [How to create permanent PowerShell Aliases?](https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases)
