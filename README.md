@@ -92,6 +92,12 @@ All the following commands will work in the current directory that you are prese
     # vch for my ease stands for Virtual Environment Remove Hidden
     vu
 
+# LICENSE
+![GitHub](https://img.shields.io/github/license/cryptoman123/nvidia-docker-and-docker?style=for-the-badge)
+
+# Test Environment
+![](https://img.shields.io/badge/Python%20-14354C?style=for-the-badge&logo=python&logoColor=white) ![](https://img.shields.io/badge/Ubuntu-22.04LTS-E95420?style=for-the-badge&logo=ubuntu&logoColor=orange) ![](https://img.shields.io/badge/Windows-11-0078d4?style=for-the-badge&logo=windows&logoColor=blue) ![](https://img.shields.io/badge/Made%20with-Bash-000000?style=for-the-badge&logo=gnubash&logoColor=white) ![](https://img.shields.io/badge/Made%20with-Powershell-0078d4?style=for-the-badge&logo=powershell&logoColor=blue)
+
 
 # References
 [1] [How to create permanent PowerShell Aliases?](https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases)
