@@ -14,32 +14,61 @@ Replace the path in `function PythonHiddenVirtualEnvCreate {}` in __line number 
 6. Save and exit
 7. Restart the Powershell 
 
+# Linux
+
 ### How to use the above newly created aliases?
-All the following commands will work in the current directory that you are present in Powershell.
+All the following commands will work in the current directory that you are present in Powershell or Bash.
+#### __Hidden Virtual Envionments__
 1. Create a Hidden [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
-```powershell
-# Windows Powershell
-# vch for my ease stands for Virtual Environment Create Hidden
-vch
-```
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Create Hidden
+    vch
+    ```
 2. Activate a Hidden [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
-```powershell
-# Windows Powershell
-# vch for my ease stands for Virtual Environment Activate Hidden
-vah
-```
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Activate Hidden
+    vah
+    ```
 3. Deactivate a Hidden [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
-```powershell
-# Windows Powershell
-# vch for my ease stands for Virtual Environment Delete Hidden
-vdh
-```
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Delete Hidden
+    vdh
+    ```
 4. Delete a Hidden [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
-```powershell
-# Windows Powershell
-# vch for my ease stands for Virtual Environment Remove Hidden
-vrh
-```
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Remove Hidden
+    vrh
+    ```
+
+#### __NOT Hidden Virtual Envionments__
+1. Create a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Create
+    vc
+    ```
+2. Activate a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Activate
+    va
+    ```
+3. Deactivate a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Delete
+    vd
+    ```
+4. Delete a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Remove
+    vr
+    ```
 
 # References
 [1] [How to create permanent PowerShell Aliases?](https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases)
