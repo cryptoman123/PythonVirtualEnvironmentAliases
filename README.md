@@ -15,25 +15,26 @@ Replace the path in `function PythonHiddenVirtualEnvCreate {}` in __line number 
 7. Restart the Powershell 
 
 ### How to use the above newly created aliases?
-1. Create a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+All the following commands will work in the current directory that you are present in Powershell.
+1. Create a Hidden [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 ```powershell
 # Windows Powershell
 # vch for my ease stands for Virtual Environment Create Hidden
 vch
 ```
-2. Activate a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+2. Activate a Hidden [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 ```powershell
 # Windows Powershell
 # vch for my ease stands for Virtual Environment Activate Hidden
 vah
 ```
-3. Deactivate a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+3. Deactivate a Hidden [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 ```powershell
 # Windows Powershell
 # vch for my ease stands for Virtual Environment Delete Hidden
 vdh
 ```
-4. Delete a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+4. Delete a Hidden [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 ```powershell
 # Windows Powershell
 # vch for my ease stands for Virtual Environment Remove Hidden
