@@ -1,7 +1,7 @@
 # PythonVirtualEnvironmentAliases
-Create aliases for Powershell and Bash to create, activate, deactive and delete virtual environments.
+Create aliases for Powershell and Bash to create, activate, deactive and delete virtual environments, as well as update pip, wheel and setuptools.
 
-# Usage
+# Installations
 ## Windows
 Replace the path in `function PythonVirtualEnvCreate {}` in __line number 1__ with the absolute path to the python.exe which you want to use in the future for the purpose of making [Python Virtual Environments](https://docs.python.org/3/library/venv.html).
 
@@ -14,9 +14,20 @@ Replace the path in `function PythonHiddenVirtualEnvCreate {}` in __line number 
 6. Save and exit
 7. Restart the Powershell 
 
-# Linux
+## Linux
+1. Create a file called `.bash_alias` in home directory using command `touch ~/.bash_aliases`
+2. Copy and paste the content from [bash.sh](./bash.sh) file to `~/.bash_aliases`
+3. Now edit the `~/.bashrc` file, this is the file that automatically runs everytime you start a new bash terminal.
+4. Copy the code below and paste it into the `~/.bashrc` file at the end
+    ```bash
+    # Bash Aliases
+    if [ -e $HOME/.bash_aliases ]; then
+        source $HOME/.bash_aliases
+    fi
+    ```
+5. Close and reopen the bash terminal or simply type `source ~/.bashrc`
 
-### How to use the above newly created aliases?
+# How to use the above newly created aliases?
 All the following commands will work in the current directory that you are present in Powershell or Bash.
 #### __Hidden Virtual Envionments__
 1. Create a Hidden [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
@@ -44,6 +55,12 @@ All the following commands will work in the current directory that you are prese
     vrh
     ```
 
+5. Update [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/), [wheel](https://realpython.com/python-wheels/), [setuptools](https://pythonhosted.org/an_example_pypi_project/setuptools.html)
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Remove Hidden
+    vuh
+
 #### __NOT Hidden Virtual Envionments__
 1. Create a [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
     ```powershell
@@ -69,6 +86,12 @@ All the following commands will work in the current directory that you are prese
     # vch for my ease stands for Virtual Environment Remove
     vr
     ```
+5. Update [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/), [wheel](https://realpython.com/python-wheels/), [setuptools](https://pythonhosted.org/an_example_pypi_project/setuptools.html)
+    ```powershell
+    # Windows Powershell + Linux BASH
+    # vch for my ease stands for Virtual Environment Remove Hidden
+    vu
+
 
 # References
 [1] [How to create permanent PowerShell Aliases?](https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases)
